@@ -1,0 +1,3527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SoOpSARwaypoints4Google.csv</name>
+	<Schema name="SoOpSARwaypoints4Google" id="S_SoOpSARwaypoints4Google_SDD">
+		<SimpleField type="string" name="Waypoint"><displayName>&lt;b&gt;Waypoint&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Latitude"><displayName>&lt;b&gt;Latitude&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Longitude"><displayName>&lt;b&gt;Longitude&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Waypoint</b></td><td>$[SoOpSARwaypoints4Google/Waypoint]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[SoOpSARwaypoints4Google/Latitude]</td></tr>
+  <tr><td><b>Longitude</b></td><td>$[SoOpSARwaypoints4Google/Longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Waypoint</b></td><td>$[SoOpSARwaypoints4Google/Waypoint]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[SoOpSARwaypoints4Google/Latitude]</td></tr>
+  <tr><td><b>Longitude</b></td><td>$[SoOpSARwaypoints4Google/Longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>SoOpSARwaypoints4Google</name>
+		<Placemark>
+			<name>B01</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">B01</SimpleData>
+					<SimpleData name="Latitude">35.5657</SimpleData>
+					<SimpleData name="Longitude">-118.414</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.41426,35.56567999999997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>B02</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">B02</SimpleData>
+					<SimpleData name="Latitude">35.6762</SimpleData>
+					<SimpleData name="Longitude">-118.462</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.46174,35.67622999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>B03</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">B03</SimpleData>
+					<SimpleData name="Latitude">35.6762</SimpleData>
+					<SimpleData name="Longitude">-118.462</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.46184,35.67622999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>B04</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">B04</SimpleData>
+					<SimpleData name="Latitude">35.5657</SimpleData>
+					<SimpleData name="Longitude">-118.414</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.41436,35.56567999999997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>B05</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">B05</SimpleData>
+					<SimpleData name="Latitude">35.5657</SimpleData>
+					<SimpleData name="Longitude">-118.414</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.41446,35.56567999999997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>B06</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">B06</SimpleData>
+					<SimpleData name="Latitude">35.6762</SimpleData>
+					<SimpleData name="Longitude">-118.462</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.46194,35.67622999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>W01</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">W01</SimpleData>
+					<SimpleData name="Latitude">36.5307</SimpleData>
+					<SimpleData name="Longitude">-118.706</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.70607,36.53074000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>W02</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">W02</SimpleData>
+					<SimpleData name="Latitude">36.6157</SimpleData>
+					<SimpleData name="Longitude">-118.743</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.74313,36.61571000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>D01</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">D01</SimpleData>
+					<SimpleData name="Latitude">37.8325</SimpleData>
+					<SimpleData name="Longitude">-119.229</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.22863,37.83254999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>D02</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">D02</SimpleData>
+					<SimpleData name="Latitude">37.9174</SimpleData>
+					<SimpleData name="Longitude">-119.267</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.26683,37.91736000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>T01</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">T01</SimpleData>
+					<SimpleData name="Latitude">37.94</SimpleData>
+					<SimpleData name="Longitude">-119.377</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.37696,37.93996,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>T02</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">T02</SimpleData>
+					<SimpleData name="Latitude">37.8552</SimpleData>
+					<SimpleData name="Longitude">-119.338</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.33847,37.85523,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C01</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">C01</SimpleData>
+					<SimpleData name="Latitude">39.2565</SimpleData>
+					<SimpleData name="Longitude">-120.321</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.32113,39.25652,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C02</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">C02</SimpleData>
+					<SimpleData name="Latitude">39.3408</SimpleData>
+					<SimpleData name="Longitude">-120.362</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.36204,39.34077000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C03</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">C03</SimpleData>
+					<SimpleData name="Latitude">39.3888</SimpleData>
+					<SimpleData name="Longitude">-120.399</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.39867,39.38877000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C04</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">C04</SimpleData>
+					<SimpleData name="Latitude">39.3045</SimpleData>
+					<SimpleData name="Longitude">-120.358</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.35767,39.30455,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C05</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">C05</SimpleData>
+					<SimpleData name="Latitude">39.2565</SimpleData>
+					<SimpleData name="Longitude">-120.321</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.32123,39.25652,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C06</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">C06</SimpleData>
+					<SimpleData name="Latitude">39.3408</SimpleData>
+					<SimpleData name="Longitude">-120.362</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.36214,39.34077000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C07</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">C07</SimpleData>
+					<SimpleData name="Latitude">39.3888</SimpleData>
+					<SimpleData name="Longitude">-120.399</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.39877,39.38877000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C08</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">C08</SimpleData>
+					<SimpleData name="Latitude">39.3045</SimpleData>
+					<SimpleData name="Longitude">-120.358</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.35777,39.30455,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C09</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">C09</SimpleData>
+					<SimpleData name="Latitude">39.2565</SimpleData>
+					<SimpleData name="Longitude">-120.321</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.32133,39.25652,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C10</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">C10</SimpleData>
+					<SimpleData name="Latitude">39.3408</SimpleData>
+					<SimpleData name="Longitude">-120.362</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.36224,39.34077000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C11</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">C11</SimpleData>
+					<SimpleData name="Latitude">39.3888</SimpleData>
+					<SimpleData name="Longitude">-120.399</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.39887,39.38877000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>C12</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">C12</SimpleData>
+					<SimpleData name="Latitude">39.3045</SimpleData>
+					<SimpleData name="Longitude">-120.358</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.35787,39.30455,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S01</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S01</SimpleData>
+					<SimpleData name="Latitude">39.3895</SimpleData>
+					<SimpleData name="Longitude">-120.263</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.26265,39.38945999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S02</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S02</SimpleData>
+					<SimpleData name="Latitude">39.4738</SimpleData>
+					<SimpleData name="Longitude">-120.303</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.30339,39.47377999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S03</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S03</SimpleData>
+					<SimpleData name="Latitude">39.4907</SimpleData>
+					<SimpleData name="Longitude">-120.344</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.3435,39.49072000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S04</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S04</SimpleData>
+					<SimpleData name="Latitude">39.4064</SimpleData>
+					<SimpleData name="Longitude">-120.303</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.30266,39.40644,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S05</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S05</SimpleData>
+					<SimpleData name="Latitude">39.3895</SimpleData>
+					<SimpleData name="Longitude">-120.263</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.26275,39.38945999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S06</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S06</SimpleData>
+					<SimpleData name="Latitude">39.4738</SimpleData>
+					<SimpleData name="Longitude">-120.303</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.30349,39.47377999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S07</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S07</SimpleData>
+					<SimpleData name="Latitude">39.4907</SimpleData>
+					<SimpleData name="Longitude">-120.344</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.3436,39.49072000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S08</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S08</SimpleData>
+					<SimpleData name="Latitude">39.4064</SimpleData>
+					<SimpleData name="Longitude">-120.303</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.30276,39.40644,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S09</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S09</SimpleData>
+					<SimpleData name="Latitude">39.3895</SimpleData>
+					<SimpleData name="Longitude">-120.263</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.26285,39.38945999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S10</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S10</SimpleData>
+					<SimpleData name="Latitude">39.4738</SimpleData>
+					<SimpleData name="Longitude">-120.304</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.30359,39.47377999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S11</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S11</SimpleData>
+					<SimpleData name="Latitude">39.4907</SimpleData>
+					<SimpleData name="Longitude">-120.344</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.3437,39.49072000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S12</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S12</SimpleData>
+					<SimpleData name="Latitude">39.4064</SimpleData>
+					<SimpleData name="Longitude">-120.303</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.30286,39.40644,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S13</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S13</SimpleData>
+					<SimpleData name="Latitude">39.3895</SimpleData>
+					<SimpleData name="Longitude">-120.263</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.26295,39.38945999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S14</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S14</SimpleData>
+					<SimpleData name="Latitude">39.4738</SimpleData>
+					<SimpleData name="Longitude">-120.304</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.30369,39.47377999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S15</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S15</SimpleData>
+					<SimpleData name="Latitude">39.4907</SimpleData>
+					<SimpleData name="Longitude">-120.344</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.3438,39.49072000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S16</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S16</SimpleData>
+					<SimpleData name="Latitude">39.4064</SimpleData>
+					<SimpleData name="Longitude">-120.303</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.30296,39.40644,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S17</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S17</SimpleData>
+					<SimpleData name="Latitude">39.3895</SimpleData>
+					<SimpleData name="Longitude">-120.263</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.26305,39.38945999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S18</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S18</SimpleData>
+					<SimpleData name="Latitude">39.4738</SimpleData>
+					<SimpleData name="Longitude">-120.304</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.30379,39.47377999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S19</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S19</SimpleData>
+					<SimpleData name="Latitude">39.4907</SimpleData>
+					<SimpleData name="Longitude">-120.344</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.3439,39.49072000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S20</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S20</SimpleData>
+					<SimpleData name="Latitude">39.4064</SimpleData>
+					<SimpleData name="Longitude">-120.303</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.30306,39.40644,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S21</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S21</SimpleData>
+					<SimpleData name="Latitude">39.3895</SimpleData>
+					<SimpleData name="Longitude">-120.263</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.26315,39.38945999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S22</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S22</SimpleData>
+					<SimpleData name="Latitude">39.4738</SimpleData>
+					<SimpleData name="Longitude">-120.304</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.30389,39.47377999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S23</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S23</SimpleData>
+					<SimpleData name="Latitude">39.4907</SimpleData>
+					<SimpleData name="Longitude">-120.344</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.344,39.49072000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S24</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S24</SimpleData>
+					<SimpleData name="Latitude">39.4064</SimpleData>
+					<SimpleData name="Longitude">-120.303</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.30316,39.40644,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S25</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S25</SimpleData>
+					<SimpleData name="Latitude">39.3895</SimpleData>
+					<SimpleData name="Longitude">-120.263</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.26325,39.38945999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S26</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S26</SimpleData>
+					<SimpleData name="Latitude">39.4738</SimpleData>
+					<SimpleData name="Longitude">-120.304</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.30399,39.47377999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S27</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S27</SimpleData>
+					<SimpleData name="Latitude">39.4907</SimpleData>
+					<SimpleData name="Longitude">-120.344</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.3441,39.49072000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S28</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S28</SimpleData>
+					<SimpleData name="Latitude">39.4064</SimpleData>
+					<SimpleData name="Longitude">-120.303</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.30326,39.40644,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S29</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S29</SimpleData>
+					<SimpleData name="Latitude">39.3895</SimpleData>
+					<SimpleData name="Longitude">-120.263</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.26335,39.38945999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S30</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S30</SimpleData>
+					<SimpleData name="Latitude">39.4738</SimpleData>
+					<SimpleData name="Longitude">-120.304</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.30409,39.47377999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S31</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S31</SimpleData>
+					<SimpleData name="Latitude">39.4907</SimpleData>
+					<SimpleData name="Longitude">-120.344</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.3442,39.49072000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S32</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S32</SimpleData>
+					<SimpleData name="Latitude">39.4064</SimpleData>
+					<SimpleData name="Longitude">-120.303</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.30336,39.40644,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S33</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S33</SimpleData>
+					<SimpleData name="Latitude">39.3895</SimpleData>
+					<SimpleData name="Longitude">-120.263</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.26345,39.38945999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S34</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S34</SimpleData>
+					<SimpleData name="Latitude">39.4738</SimpleData>
+					<SimpleData name="Longitude">-120.304</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.30419,39.47377999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S35</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S35</SimpleData>
+					<SimpleData name="Latitude">39.4907</SimpleData>
+					<SimpleData name="Longitude">-120.344</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.3443,39.49072000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S36</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S36</SimpleData>
+					<SimpleData name="Latitude">39.4064</SimpleData>
+					<SimpleData name="Longitude">-120.303</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.30346,39.40644,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S37</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S37</SimpleData>
+					<SimpleData name="Latitude">39.3895</SimpleData>
+					<SimpleData name="Longitude">-120.264</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.26355,39.38945999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S38</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S38</SimpleData>
+					<SimpleData name="Latitude">39.4738</SimpleData>
+					<SimpleData name="Longitude">-120.304</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.30429,39.47377999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S39</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S39</SimpleData>
+					<SimpleData name="Latitude">39.4907</SimpleData>
+					<SimpleData name="Longitude">-120.344</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.3444,39.49072000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S40</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S40</SimpleData>
+					<SimpleData name="Latitude">39.4064</SimpleData>
+					<SimpleData name="Longitude">-120.304</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.30356,39.40644,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S41</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S41</SimpleData>
+					<SimpleData name="Latitude">39.3895</SimpleData>
+					<SimpleData name="Longitude">-120.264</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.26365,39.38945999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S42</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S42</SimpleData>
+					<SimpleData name="Latitude">39.4738</SimpleData>
+					<SimpleData name="Longitude">-120.304</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.30439,39.47377999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S43</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S43</SimpleData>
+					<SimpleData name="Latitude">39.4907</SimpleData>
+					<SimpleData name="Longitude">-120.344</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.3445,39.49072000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S44</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">S44</SimpleData>
+					<SimpleData name="Latitude">39.4064</SimpleData>
+					<SimpleData name="Longitude">-120.304</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.30366,39.40644,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G01</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G01</SimpleData>
+					<SimpleData name="Latitude">38.9654</SimpleData>
+					<SimpleData name="Longitude">-108.056</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.05581,38.96535000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G02</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G02</SimpleData>
+					<SimpleData name="Latitude">39.0553</SimpleData>
+					<SimpleData name="Longitude">-108.061</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.06124,39.05528000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G03</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G03</SimpleData>
+					<SimpleData name="Latitude">39.087</SimpleData>
+					<SimpleData name="Longitude">-108.127</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.12695,39.08697999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G04</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G04</SimpleData>
+					<SimpleData name="Latitude">38.9971</SimpleData>
+					<SimpleData name="Longitude">-108.121</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.12132,38.99704999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G05</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G05</SimpleData>
+					<SimpleData name="Latitude">38.9654</SimpleData>
+					<SimpleData name="Longitude">-108.056</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.05591,38.96535000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G06</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G06</SimpleData>
+					<SimpleData name="Latitude">39.0553</SimpleData>
+					<SimpleData name="Longitude">-108.061</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.06134,39.05528000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G07</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G07</SimpleData>
+					<SimpleData name="Latitude">39.087</SimpleData>
+					<SimpleData name="Longitude">-108.127</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.12705,39.08697999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G08</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G08</SimpleData>
+					<SimpleData name="Latitude">38.9971</SimpleData>
+					<SimpleData name="Longitude">-108.121</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.12142,38.99704999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G09</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G09</SimpleData>
+					<SimpleData name="Latitude">38.9654</SimpleData>
+					<SimpleData name="Longitude">-108.056</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.05601,38.96535000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G10</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G10</SimpleData>
+					<SimpleData name="Latitude">39.0553</SimpleData>
+					<SimpleData name="Longitude">-108.061</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.06144,39.05528000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G11</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G11</SimpleData>
+					<SimpleData name="Latitude">39.087</SimpleData>
+					<SimpleData name="Longitude">-108.127</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.12715,39.08697999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G12</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G12</SimpleData>
+					<SimpleData name="Latitude">38.9971</SimpleData>
+					<SimpleData name="Longitude">-108.122</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.12152,38.99704999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G13</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G13</SimpleData>
+					<SimpleData name="Latitude">38.9654</SimpleData>
+					<SimpleData name="Longitude">-108.056</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.05611,38.96535000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G14</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G14</SimpleData>
+					<SimpleData name="Latitude">39.0553</SimpleData>
+					<SimpleData name="Longitude">-108.062</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.06154,39.05528000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G15</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G15</SimpleData>
+					<SimpleData name="Latitude">39.087</SimpleData>
+					<SimpleData name="Longitude">-108.127</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.12725,39.08697999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G16</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G16</SimpleData>
+					<SimpleData name="Latitude">38.9971</SimpleData>
+					<SimpleData name="Longitude">-108.122</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.12162,38.99704999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G17</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G17</SimpleData>
+					<SimpleData name="Latitude">38.9654</SimpleData>
+					<SimpleData name="Longitude">-108.056</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.05621,38.96535000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G18</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G18</SimpleData>
+					<SimpleData name="Latitude">39.0553</SimpleData>
+					<SimpleData name="Longitude">-108.062</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.06164,39.05528000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G19</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G19</SimpleData>
+					<SimpleData name="Latitude">39.087</SimpleData>
+					<SimpleData name="Longitude">-108.127</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.12735,39.08697999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G20</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G20</SimpleData>
+					<SimpleData name="Latitude">38.9971</SimpleData>
+					<SimpleData name="Longitude">-108.122</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.12172,38.99704999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G21</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G21</SimpleData>
+					<SimpleData name="Latitude">38.9654</SimpleData>
+					<SimpleData name="Longitude">-108.056</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.05631,38.96535000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G22</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G22</SimpleData>
+					<SimpleData name="Latitude">39.0553</SimpleData>
+					<SimpleData name="Longitude">-108.062</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.06174,39.05528000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G23</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G23</SimpleData>
+					<SimpleData name="Latitude">39.087</SimpleData>
+					<SimpleData name="Longitude">-108.127</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.12745,39.08697999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G24</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G24</SimpleData>
+					<SimpleData name="Latitude">38.9971</SimpleData>
+					<SimpleData name="Longitude">-108.122</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.12182,38.99704999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G25</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G25</SimpleData>
+					<SimpleData name="Latitude">38.9654</SimpleData>
+					<SimpleData name="Longitude">-108.056</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.05641,38.96535000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G26</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G26</SimpleData>
+					<SimpleData name="Latitude">39.0553</SimpleData>
+					<SimpleData name="Longitude">-108.062</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.06184,39.05528000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G27</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G27</SimpleData>
+					<SimpleData name="Latitude">39.087</SimpleData>
+					<SimpleData name="Longitude">-108.128</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.12755,39.08697999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G28</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G28</SimpleData>
+					<SimpleData name="Latitude">38.9971</SimpleData>
+					<SimpleData name="Longitude">-108.122</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.12192,38.99704999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G29</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G29</SimpleData>
+					<SimpleData name="Latitude">38.9654</SimpleData>
+					<SimpleData name="Longitude">-108.057</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.05651,38.96535000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G30</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G30</SimpleData>
+					<SimpleData name="Latitude">39.0553</SimpleData>
+					<SimpleData name="Longitude">-108.062</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.06194,39.05528000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G31</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G31</SimpleData>
+					<SimpleData name="Latitude">39.087</SimpleData>
+					<SimpleData name="Longitude">-108.128</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.12765,39.08697999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G32</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G32</SimpleData>
+					<SimpleData name="Latitude">38.9971</SimpleData>
+					<SimpleData name="Longitude">-108.122</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.12202,38.99704999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G33</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G33</SimpleData>
+					<SimpleData name="Latitude">38.9654</SimpleData>
+					<SimpleData name="Longitude">-108.057</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.05661,38.96535000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G34</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G34</SimpleData>
+					<SimpleData name="Latitude">39.0553</SimpleData>
+					<SimpleData name="Longitude">-108.062</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.06204,39.05528000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G35</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G35</SimpleData>
+					<SimpleData name="Latitude">39.087</SimpleData>
+					<SimpleData name="Longitude">-108.128</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.12775,39.08697999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G36</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G36</SimpleData>
+					<SimpleData name="Latitude">38.9971</SimpleData>
+					<SimpleData name="Longitude">-108.122</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.12212,38.99704999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G37</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G37</SimpleData>
+					<SimpleData name="Latitude">38.9654</SimpleData>
+					<SimpleData name="Longitude">-108.057</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.05671,38.96535000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G38</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G38</SimpleData>
+					<SimpleData name="Latitude">39.0553</SimpleData>
+					<SimpleData name="Longitude">-108.062</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.06214,39.05528000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G39</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G39</SimpleData>
+					<SimpleData name="Latitude">39.087</SimpleData>
+					<SimpleData name="Longitude">-108.128</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.12785,39.08697999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G40</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G40</SimpleData>
+					<SimpleData name="Latitude">38.9971</SimpleData>
+					<SimpleData name="Longitude">-108.122</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.12222,38.99704999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G41</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G41</SimpleData>
+					<SimpleData name="Latitude">38.9654</SimpleData>
+					<SimpleData name="Longitude">-108.057</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.05681,38.96535000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G42</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G42</SimpleData>
+					<SimpleData name="Latitude">39.0553</SimpleData>
+					<SimpleData name="Longitude">-108.062</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.06224,39.05528000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G43</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G43</SimpleData>
+					<SimpleData name="Latitude">39.087</SimpleData>
+					<SimpleData name="Longitude">-108.128</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.12795,39.08697000000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G44</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffededed</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SoOpSARwaypoints4Google_SDD">
+					<SimpleData name="Waypoint">G44</SimpleData>
+					<SimpleData name="Latitude">38.9971</SimpleData>
+					<SimpleData name="Longitude">-108.122</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.12232,38.99704999999998,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,272 @@
+% lets go from waypoints to a centerline for each flight line
+D=readtable('waypoints.01072203.dat');
+Ix=find(D.Var3>-110);
+% figure(1);clf;
+% plot(D.Var3(Ix),D.Var2(Ix),'o'); hold on
+% plot(D.Var5(Ix),D.Var4(Ix),'rx'); hold on
+[x,y,ZONE]=ll2utm(D.Var2(Ix),D.Var3(Ix),'nad83');
+[x2,y2,ZONE]=ll2utm(D.Var4(Ix),D.Var5(Ix),'nad83');
+x0=752000; y0=4324000;
+x3=[x(:);x2(:)];
+y3=[y(:);y2(:)];
+
+
+% Find average for each primary waypoint
+% p1 = [mean(D.Var2(Ix)),mean(D.Var3(Ix))];
+% z1 = utmzone(p1) % get zone (12)
+% [ellipsoid,estr] = utmgeoid(z1) % get ellipsoid
+% utmstruct = defaultm('utm');
+% utmstruct.zone = z1;
+% utmstruct.geoid = ellipsoid;
+% utmstruct = defaultm(utmstruct)
+% [x,y] = mfwdtran(utmstruct,D.Var2(Ix),D.Var3(Ix));
+% [x2,y2] = mfwdtran(utmstruct,D.Var4(Ix),D.Var5(Ix));
+% x0=752000; y0=4324000;
+% x3=[x(:);x2(:)];
+% y3=[y(:);y2(:)];
+
+Ix=find(x3>x0 & y3>y0); % northern point on E line
+NEx=mean(x3(Ix)); NEy=mean(y3(Ix));
+Ix=find(x3>x0 & y3<y0); % southern point on E line
+SEx=mean(x3(Ix)); SEy=mean(y3(Ix));
+
+figure(1);clf
+plot(NEx,NEy,'ks','markersize',6,'linewidth',2); hold on
+plot(SEx,SEy,'ks','markersize',6,'linewidth',2)
+a=(NEy-SEy)./(NEx-SEx); % slope
+b=NEy-a*NEx;
+xm=linspace(NEx,SEx,10000);
+ym=a*xm+b;
+plot(xm,ym,'k-','linewidth',3)
+
+%% now lets grab the veg height for all pixels within this box
+xmin=min([SEx NEx])-10; xmax=max([SEx NEx])+10;
+ymin=min([SEy NEy])-10; ymax=max([SEy NEy])+10;
+[Av,R]=readgeoraster('/Users/hpmarshall/DATA_DRIVE/SnowEx2020/SNEX20_QSI_VH_0.5M_USCOGM_20200201_20200202.tif');
+Av=flipud(Av);
+xv=linspace(R.XWorldLimits(1),R.XWorldLimits(2),R.RasterSize(2));
+yv=linspace(R.YWorldLimits(1),R.YWorldLimits(2),R.RasterSize(1));
+Ix=find(xv>xmin & xv<xmax);
+Iy=find(yv>ymin & yv<ymax);
+
+%%
+xv=xv(Ix); yv=yv(Iy); Av=Av(Iy,Ix);
+[X,Y]=meshgrid(xv,yv); % get coordinates of all grid points.
+%%
+tic
+ns=createns([X(:) Y(:)]); % create kdtree searcher
+toc
+%%
+for n=1:length(xm)
+    [Ix,D]=rangesearch(ns,[xm(n) ym(n)],5);
+    if length(Ix{1})>1
+        VHmax(n)=max(Av(Ix{1})); % max veg height within 5m radius
+        VHdensity(n)=sum(Av(Ix{1})>5)/length(Ix{1}); % number of pixels>5m VH
+    else 
+        VHmax(n)=NaN;
+    end
+    n
+end
+
+%% now repeat for snow depth
+[A,R]=readgeoraster('/Users/hpmarshall/DATA_DRIVE/SnowEx2020/ASO_GrandMesa_2020Feb1-2_snowdepth_3m.tif');
+A=flipud(A);
+x=linspace(R.XWorldLimits(1),R.XWorldLimits(2),R.RasterSize(2));
+y=linspace(R.YWorldLimits(1),R.YWorldLimits(2),R.RasterSize(1));
+Ix=find(x>xmin & x<xmax);
+Iy=find(y>ymin & y<ymax);
+x=x(Ix); y=y(Iy); A=A(Iy,Ix);
+figure(1); clf; 
+imagesc(x,y,A,[0 2]); colorbar; set(gca,'Ydir','normal')
+Ix=find(x3>x0)
+hold on; plot(x3(Ix),y3(Ix),'ro')
+xp=[SEx-10 SEx+10 NEx+10 NEx-10]; yp=[SEy SEy NEy NEy];
+roi=drawpolygon('Position',[xp(:) yp(:)]);
+hold on;
+plot(xm,ym,'w','linewidth',3)
+
+%%
+%%
+[X,Y]=meshgrid(x,y); % get coordinates of all grid points.
+tic
+ns=createns([X(:) Y(:)]); % create kdtree searcher
+toc
+for n=1:length(xm)
+    [Ix,D]=rangesearch(ns,[xm(n) ym(n)],5);
+    if length(Ix{1})>1
+        Hmean(n)=median(A(Ix{1})); % mean within 5m radius
+        Hstd(n)=std(A(Ix{1})); % std within 5m
+    else 
+        Hmed(n)=NaN;
+    end
+    n
+end
+
+%%
+% figure(4);clf;
+% subplot(2,2,1:2)
+% plotyy(ym-min(ym),VHmax,ym-min(ym),Hmean)
+% set(gca,'Linewidth',2,'fontsize',14)
+% xlabel('False Northing [m]')
+% subplot(2,2,3)
+% hist(VHmax,100); set(gca,'Linewidth',2,'fontsize',14)
+% xlabel('max veg height within 5m radius')
+% axis([0 30 0 60])
+% subplot(2,2,4)
+% hist(Hmed,100); set(gca,'Linewidth',2,'fontsize',14)
+% xlabel('median snow depth Feb 2, 2020 within 5m radius')
+% axis([0 1.8 0 225])
+
+%% now lets look at how to stratify
+% lets use quantiles.  3 snow depth classes for open, and 3 veg density
+% classes
+VHrho=VHdensity(1:6085);
+Hmean=Hmean(1:6085);
+Hstd=Hstd(1:6085);
+% lets first divide into open and forested
+O=VHrho==0; % sites with no trees larger than 5m within 5m
+F=~O; % sites with trees larger than 5m within 5m
+
+QH=quantile(Hmean(O),[0.2 0.4 0.6 0.8]); % quantiles for depth classes in open areas
+OL=(VHrho==0 & Hmean <= QH(1) & Hstd <=0.15); % bottom 20% of depths, and where depth is consistent
+OM=(VHrho==0 & Hmean >= QH(2) & Hmean <= QH(3) & Hstd<=0.15); % middle 20% of depths
+OH=(VHrho==0 & Hmean >= QH(4) & Hstd<=0.15); % top 20% of depths
+
+
+%%
+OLp=[];
+Ix=find(OL);
+Ix1=randsample(Ix,500); % randomly sample
+OLp=[OLp;Ix1(1)]; % add it
+n=2
+while length(OLp)<30
+    IxT=Ix1(n);
+    d=abs(ym(OLp)-ym(IxT)); % distance to all other points
+    if min(d)>25; % if at least 25m from other points in this class
+        OLp=[OLp;IxT]; % add it
+    end
+    length(OLp)
+    n=n+1
+end
+
+%%
+OMp=[];
+Ix=find(OM);
+Ix1=randsample(Ix,500); % randomly sample
+OMp=[OMp;Ix1(1)]; % add it
+n=2
+while length(OMp)<30
+    IxT=Ix1(n);
+    d=abs(ym(OMp)-ym(IxT)); % distance to all other points
+    if min(d)>25; % if at least 25m from other points in this class
+        OMp=[OMp;IxT]; % add it
+    end
+    length(OMp)
+    n=n+1
+end
+
+%%
+%%
+OHp=[];
+Ix=find(OH);
+Ix1=randsample(Ix,500); % randomly sample
+OHp=[OHp;Ix1(1)]; % add it
+n=2
+while length(OHp)<30
+    IxT=Ix1(n);
+    d=abs(ym(OHp)-ym(IxT)); % distance to all other points
+    if min(d)>25; % if at least 25m from other points in this class
+        OHp=[OHp;IxT]; % add it
+    end
+    length(OHp)
+    n=n+1
+end
+
+%%
+figure(1); clf; 
+imagesc(x,y,A,[0.9 1.13]); colorbar; set(gca,'Ydir','normal')
+hold on
+plot(xm(OLp),ym(OLp),'wo','markersize',10,'linewidth',2)
+plot(xm(OMp),ym(OMp),'rx','markersize',10,'linewidth',2)
+plot(xm(OHp),ym(OHp),'gd','markersize',10,'linewidth',2)
+
+%% now get points with different forest density
+
+QV=quantile(VHrho(F),[0.1 0.3 0.45 0.65 0.8]); % quantiles for forest density classes
+
+FS=(VHrho>=QV(1) & VHrho<=QV(2) & Hstd<0.15); % 10-30% quantile, since we have lots of 0% examples
+FM=(VHrho>=QV(3) & VHrho<=QV(4) & Hstd<0.15); % 45-65% quantile, since we have lots of 0% examples
+FD=(VHrho>=QV(5) & Hstd<0.15); % above 80%
+
+%%
+FSp=[];
+Ix=find(FS);
+Ix1=randsample(Ix,450); % randomly sample
+FSp=[FSp;Ix1(1)]; % add it
+n=2
+while length(FSp)<30
+    IxT=Ix1(n);
+    d=abs(ym(FSp)-ym(IxT)); % distance to all other points
+    if min(d)>25; % if at least 25m from other points in this class
+        FSp=[FSp;IxT]; % add it
+    end
+    length(FSp)
+    n=n+1
+end
+
+%%
+FMp=[];
+Ix=find(FM);
+Ix1=randsample(Ix,500); % randomly sample
+FMp=[FMp;Ix1(1)]; % add it
+n=2
+while length(FMp)<30
+    IxT=Ix1(n);
+    d=abs(ym(FMp)-ym(IxT)); % distance to all other points
+    if min(d)>25; % if at least 25m from other points in this class
+        FMp=[FMp;IxT]; % add it
+    end
+    length(FMp)
+    n=n+1
+end
+
+%%
+FDp=[];
+Ix=find(FD);
+Ix1=randsample(Ix,500); % randomly sample
+FDp=[FDp;Ix1(1)]; % add it
+n=2
+while length(FDp)<30
+    IxT=Ix1(n);
+    d=abs(ym(FDp)-ym(IxT)); % distance to all other points
+    if min(d)>25; % if at least 25m from other points in this class
+        FDp=[FDp;IxT]; % add it
+    end
+    length(FDp)
+    n=n+1
+end
+%%
+figure(1); clf; 
+imagesc(xv,yv,Av,[0 1]); colorbar; set(gca,'Ydir','normal')
+hold on
+plot(xm(FSp),ym(FSp),'wo','markersize',10,'linewidth',2)
+plot(xm(FMp),ym(FMp),'rx','markersize',10,'linewidth',2)
+plot(xm(FDp),ym(FDp),'kd','markersize',10,'linewidth',2)
+
+%% now lets write some kmls
+[OLlat,OLlon]=utm2ll(xm(OLp),ym(OLp),ZONE,'nad83'); % convert open low snow areas to lat/lon
+kmlwritepoint('OL.kml',OLlat,OLlon,'Color','r')
+[OMlat,OMlon]=utm2ll(xm(OMp),ym(OMp),ZONE,'nad83'); % convert open low snow areas to lat/lon
+kmlwritepoint('OM.kml',OMlat,OMlon,'Color','g')
+[OHlat,OHlon]=utm2ll(xm(OHp),ym(OHp),ZONE,'nad83'); % convert open low snow areas to lat/lon
+kmlwritepoint('OH.kml',OHlat,OHlon,'Color','y')
+%% now lets write some kmls
+[FSlat,FSlon]=utm2ll(xm(FSp),ym(FSp),ZONE,'nad83'); % convert open low snow areas to lat/lon
+kmlwritepoint('FS.kml',FSlat,FSlon,'Color','r')
+[FMlat,FMlon]=utm2ll(xm(FMp),ym(FMp),ZONE,'nad83'); % convert open low snow areas to lat/lon
+kmlwritepoint('FM.kml',FMlat,FMlon,'Color','g')
+[FDlat,FDlon]=utm2ll(xm(FDp),ym(FDp),ZONE,'nad83'); % convert open low snow areas to lat/lon
+kmlwritepoint('FD.kml',FDlat,FDlon,'Color','y')
+
+
+

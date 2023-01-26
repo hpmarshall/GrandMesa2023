@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>FS</name>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 1</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.059022277299,39.0102836379585,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 2</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.060049309651,39.027291085171,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 3</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.058875112144,39.0078462908692,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 4</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.060034643862,39.0270482503576,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 5</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.060515380878,39.0350078323745,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 6</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.060632721146,39.0369505089126,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 7</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.059780987625,39.0228481064011,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 8</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.058981548452,39.0096090954744,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 9</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.061334110761,39.0485615897208,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 10</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.059245477953,39.0139801298427,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 11</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.059225384009,39.0136473556984,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 12</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.060816886385,39.0399994309371,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 13</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.059753830421,39.0223984120671,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 14</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.058944078239,39.0089885163429,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 15</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.058962541783,39.009294308964,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 16</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.059098305471,39.0115427837889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 17</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.060665316211,39.0374901412073,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 18</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.061485703621,39.0510708762525,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 19</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.061410721563,39.0498297238651,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 20</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.059667471608,39.0209683839304,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 21</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.060931518137,39.0418971370257,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 22</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.058665505166,39.0043746440208,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 23</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.058650843905,39.0041318085677,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 24</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.061502004235,39.0513406919654,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 25</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.05920583323,39.0133235754378,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 26</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.059000555201,39.0099238819735,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 27</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.05874369937,39.0056697663231,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 28</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.06143788883,39.0502794167796,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 29</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.059694085153,39.0214090844504,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Snippet maxLines="0"> </Snippet>
+      <description> </description>
+      <name>Point 30</name>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-108.061376491043,39.0492631107597,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
